@@ -1,8 +1,12 @@
-hash: e01329c96b01f938f6c3e4f5a25510a08ae52b68dfba8705a6e92568bd79b082
-updated: 2018-01-06T13:21:25.380590131+08:00
+hash: e0b9f6952dff4327c28825aa405ef210d8d98e06249830f594ac0e070a249c6a
+updated: 2018-01-06T13:59:40.310052626+08:00
 imports:
 - name: github.com/sirupsen/logrus
   version: d682213848ed68c0a260ca37d6dd5ace8423f5ba
+- name: github.com/stretchr/testify
+  version: b91bfb9ebec76498946beb6af7c0230c7cc7ba6c
+  subpackages:
+  - assert
 - name: golang.org/x/crypto
   version: d585fd2cc9195196078f516b69daff6744ef5e84
   subpackages:

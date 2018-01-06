@@ -6,9 +6,14 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+func GetExe() (string, error) {
+	ex, err := os.Executable()
+	return ex, err
+}
+
 func main() {
 	logrus.SetFormatter(&logrus.JSONFormatter{})
-	ex, err := os.Executable()
+	ex, err := GetExe()
 
 	if err == nil {
 		logrus.Infof("%v", ex)
