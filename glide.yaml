@@ -1,0 +1,4 @@
+package: github.com/guangie88/go-release-template
+import:
+  - package: github.com/sirupsen/logrus
+    version: =1.0.4
